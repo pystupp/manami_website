@@ -1,0 +1,313 @@
+
+body {
+    margin: 0;
+    font-family: Georgia, "Yu Mincho", "Hiragino Mincho ProN", serif;
+    background:
+        linear-gradient(
+            to bottom,
+            #fff9f8 0%,
+            #fff3f4 30%,
+            #fff7f2 60%,
+            #fffdf9 100%
+        );
+    color: #3d2f2f;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px 25px;
+    background: rgba(255, 255, 255, 0.45);
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: normal;
+}
+
+header p {
+    color: #7b5a5f;
+}
+
+.jp-small {
+    font-size: 13px;
+    color: #9b747b;
+}
+
+nav {
+    border-top: 1px solid #e4c8cb;
+    border-bottom: 1px solid #e4c8cb;
+    padding: 14px;
+    margin-top: 25px;
+    background: rgba(255, 248, 248, 0.75);
+}
+
+nav a {
+    margin: 0 14px;
+    text-decoration: none;
+    color: #5b4447;
+    letter-spacing: 1px;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+nav a span {
+    font-size: 12px;
+    color: #9b747b;
+}
+
+nav a:hover {
+    color: #d67b8c;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 70px 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: normal;
+    color: #5b4447;
+    margin-bottom: 5px;
+}
+
+.jp-center {
+    text-align: center;
+    color: #9b747b;
+    margin-top: 0;
+}
+
+.intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.8;
+}
+
+.jp {
+    color: #7b5a5f;
+    line-height: 1.9;
+}
+
+.home-intro {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.home-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.home-photo img {
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #ecd7da;
+    box-shadow: 0 4px 12px rgba(214, 123, 140, 0.12);
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.custom-single {
+    max-width: 560px;
+    margin: 40px auto 0;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background: #fffaf9;
+    border: 1px solid #ecd7da;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(214, 123, 140, 0.08);
+}
+
+.card h3 {
+    font-weight: normal;
+    color: #5b4447;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+.custom-card {
+    background: rgba(255, 250, 249, 0.65);
+    padding: 25px;
+    border: 1px solid #ecd7da;
+    border-radius: 14px;
+}
+
+.contact-box {
+    max-width: 720px;
+    margin: 45px auto;
+    padding: 28px;
+    background: #fff6f7;
+    border: 1px solid #ead3c7;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.venmo-image {
+    width: 280px;
+    max-width: 100%;
+    border-radius: 14px;
+    border: 1px solid #ecd7da;
+    background: white;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.venmo-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #5b4447;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 14px;
+    border: 1px solid #e4c8cb;
+    border-radius: 10px;
+    background: #fffdfc;
+    font-size: 15px;
+    font-family: Georgia, "Yu Mincho", serif;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.file-label {
+    color: #5b4447;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.file-input {
+    background: #fffdfc;
+    cursor: pointer;
+}
+
+.gallery {
+    columns: 3 250px;
+    margin-top: 35px;
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ecd7da;
+    border-radius: 10px;
+    background: #fffaf9;
+    box-shadow: 0 4px 12px rgba(214, 123, 140, 0.08);
+}
+
+.author-letter {
+    background: #fff6f7;
+    border: 1px solid #ead3c7;
+    padding: 30px;
+    max-width: 800px;
+    margin: 40px auto;
+    line-height: 1.8;
+}
+
+.bio-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.bio-gallery img {
+    width: 260px;
+    border: 1px solid #ecd7da;
+    border-radius: 10px;
+    background: #fffaf9;
+    box-shadow: 0 4px 12px rgba(214, 123, 140, 0.08);
+}
+
+.bio-container {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.9;
+}
+
+.button {
+    border: 1px solid #d9a7af;
+    background: #fff6f7;
+    color: #7b5a5f;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: inline-block;
+    margin-top: 25px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.button span {
+    font-size: 13px;
+    color: #9b747b;
+}
+
+.button:hover {
+    background: #e7bcc3;
+    color: #5b4447;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #e4c8cb;
+    padding: 30px;
+    margin-top: 50px;
+    color: #7b5a5f;
+}
+
+@media(max-width:700px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .home-photo img {
+        width: 100%;
+    }
+
+    .gallery {
+        columns: 2;
+    }
+}
